@@ -1,0 +1,6 @@
+card_number = input("Enter Card No: ")
+last_digits = card_number[15:]
+four = 'X' * 4 + ' '
+masked_part = four * 3
+display_number = masked_part + last_digits
+print(display_number)

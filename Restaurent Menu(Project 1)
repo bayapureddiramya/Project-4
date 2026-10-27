@@ -1,0 +1,17 @@
+item1 = input("Enter item 1 name: ")
+price1 = input("Enter price 1 price: ")
+item2 = input("Enter item 2 name: ")
+price2 = input("Enter price 2 price: ")
+item3 = input("Enter item 3 name: ")
+price3 = input("Enter price 3 price: ")
+item4 = input("Enter item 4 name:")
+price4 = input("Enter price 4 price: ")
+total_length = 20
+def print_menu_item(item, price):
+    dash_count = total_length - len(item) - len(price)
+    dashes = "-" * dash_count
+    print(item + dashes + price)
+print_menu_item(item1, price1)
+print_menu_item(item2, price2)
+print_menu_item(item3, price3)
+print_menu_item(item4, price4)
