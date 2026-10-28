@@ -1,0 +1,8 @@
+scan = 'These+notes#reveal19Newton seeking-out an(!underlying structure to/the\\pyramid'
+clean = ''
+for X in scan:
+    if X.isalpha() or X.isspace():
+        clean = clean + X
+    else:
+        clean = clean + ' '
+print(clean)    
